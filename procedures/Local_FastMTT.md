@@ -2,7 +2,7 @@
 The FastMTT wrapper adds a branch to the n-tuple that has an estimate of the di-tau mass for each event.
 1. At the terminal line: `cmsenv`.
 1. Get grid certificate: ```voms-proxy-init --rfc --voms cms```
-1. At the terminal line, generate an n-tuple (you can `Ctrl+C` at any point to make a smaller, incomplete test file).
+1. In the `PUAnalysis` folder: at the terminal line, generate an n-tuple (you can `Ctrl+C` at any point to make a smaller, incomplete test file).
 
     ```cmsRun TT-MC-Sync.py```
   
