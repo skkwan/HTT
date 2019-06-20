@@ -62,4 +62,8 @@ More detailed description of the Trigger and DAQ system (presented by Dinyar Rab
 ### Viewing results of FastMTT Condor submission.
 
 1. `cd /nfs_scratch/skkwan/` and `ls`.
-1.  
+1. Log files look good.
+
+### Hadd and merging files.
+
+The next step is to `hadd` and merge different final states into one folder (e.g. WZ). The step after that is to apply the weighing, which entails: applying cross sections of each physics process, and applying scale factors from the tau trigger.
