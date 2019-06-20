@@ -14,6 +14,6 @@ Taking a look at `weight80x.sh` and deducing what it does:
 
     -   `weight`:  if set to 1, runs `EventWeightsIterativeGen` on all processes to be weighted (all with different weights of course), caling the summed histogram `sumweights/genWeights`. Then uses `hadd` utility like so:
 
-    '''hadd -f DiBoson.root WWTo*root WZTo*root ZZTo*.root St_*.root t*tW.root VVTo*root WWW.root ZZZ.root'''
+    ```hadd -f DiBoson.root WWTo*root WZTo*root ZZTo*.root St_*.root t*tW.root VVTo*root WWW.root ZZZ.root```
 
     *Need to clarify: are these different initial states?*

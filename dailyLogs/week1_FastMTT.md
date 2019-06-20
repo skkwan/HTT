@@ -26,12 +26,12 @@ Submitting jobs to Condor:
 1. Dryrun produces a long `farmOutAnalysisJobs` command: tried running that command:
    Need to remove trailing `/` from the sample path, like so:
 
-   '''python fastmttSubmitter.py -s -sd /hdfs/store/user/shigginb/2018_MC_tt/W1JetsToLNu_Tu\
-neCP5_13TeV-madgraphMLM-pythia8/*/*/* --jobName FastMTT2018_W1Jets -es -iswj'''
+   ```python fastmttSubmitter.py -s -sd /hdfs/store/user/shigginb/2018_MC_tt/W1JetsToLNu_Tu\
+neCP5_13TeV-madgraphMLM-pythia8/*/*/* --jobName FastMTT2018_W1Jets -es -iswj```
 1. In `PUAnalysis/Condor/fastmttSubmitter.py`, added `--max-usercode-size=350` in-between `--fwklite` and `--input-file-list` as prompted by the error message.
 1. Success! Submitted jobs for one MC dataset.
 
-   '''You can monitor your workflow's progess by watching /nfs_scratch/skkwan/FastMTT2018_W1Jets/0000/dags/dag.dagman.out
+   ```You can monitor your workflow's progess by watching /nfs_scratch/skkwan/FastMTT2018_W1Jets/0000/dags/dag.dagman.out
 A summary of the status of all of the jobs in your workflow will be
 written to the following file every 60 seconds:
   /nfs_scratch/skkwan/FastMTT2018_W1Jets/0000/dags/dag.status
@@ -39,7 +39,7 @@ written to the following file every 60 seconds:
 Your jobs should show up in ~6 minutes
 at the NEW job monitoring web page :
     http://www.hep.wisc.edu/cms/comp/jobs/
-Jobs for FastMTT2018_W1Jets are created in /nfs_scratch/skkwan/FastMTT2018_W1Jets/0000/submit'''
+Jobs for FastMTT2018_W1Jets are created in /nfs_scratch/skkwan/FastMTT2018_W1Jets/0000/submit```
 
   Submitted at 06/18/19 10:10:15, exited with status 0 (i.e. successful) at 06/18/19 11:00:41.
 
