@@ -53,4 +53,13 @@ Introduction to CMS organization, how the CMS experiment is organized, major com
 1. In `PUAnalysis/Condor/submit_FastMTT.sh`, removed trailing `/` from sample directories as per yesterday's test run.
 1. At terminal, `chmod +x submit_FastMTT.sh` to make it an executable.
 1. At terminal, `./submit_FastMTT.sh`.
-1. 
+
+## Thursday (06/20/19)
+
+### CMS Induction Course
+More detailed description of the Trigger and DAQ system (presented by Dinyar Rabady), the software supporting L1 online operations and monitoring (Glenn Dirkx), and how data from P5 is processed and packaged into Tier 0 as well as CMS's data formatting system.
+
+### Viewing results of FastMTT Condor submission.
+
+1. `cd /nfs_scratch/skkwan/` and `ls`.
+1.  
