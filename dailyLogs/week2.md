@@ -1,5 +1,9 @@
 # Week 2
 
+Directory with the outputs: `/nfs_scratch/skkwan/`.
+Important directories:
+`PUAnalysis/Condor/submit_FastMTT.sh`
+
 ## Friday (06/21/19)
 
 ### Learning how to make control plots
@@ -13,4 +17,11 @@ See the corresponding Procedures file. Example: [http://www.hep.wisc.edu/~skkwan
 - 2016 data and MC are not ready yet, but as a heads up because the FastMTT submit script must be edited to reflect a different naming scheme:
   '''/hdfs/store/user/shigginb/2019_June_18_2016_tt
      /hdfs/store/user/shigginb/2019_June_18_2016_Data_tt/'''
+
+
+## Tuesday (06/25/19)
+
+- FastMTT on 2018 MonteCarlo completed.
+- Made `submit_FastMTT_2016MC.sh`.
+- FastMTT on 2016 MonteCarlo submitted.
 
