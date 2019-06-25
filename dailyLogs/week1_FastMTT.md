@@ -26,8 +26,7 @@ Submitting jobs to Condor:
 1. Dryrun produces a long `farmOutAnalysisJobs` command: tried running that command:
    Need to remove trailing `/` from the sample path, like so:
 
-   ```python fastmttSubmitter.py -s -sd /hdfs/store/user/shigginb/2018_MC_tt/W1JetsToLNu_Tu\
-neCP5_13TeV-madgraphMLM-pythia8/*/*/* --jobName FastMTT2018_W1Jets -es -iswj```
+   ```python fastmttSubmitter.py -s -sd /hdfs/store/user/shigginb/2018_MC_tt/W1JetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8/*/*/* --jobName FastMTT2018_W1Jets -es -iswj```
 1. In `PUAnalysis/Condor/fastmttSubmitter.py`, added `--max-usercode-size=350` in-between `--fwklite` and `--input-file-list` as prompted by the error message.
 1. Success! Submitted jobs for one MC dataset.
 
