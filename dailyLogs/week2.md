@@ -13,7 +13,7 @@ See the corresponding Procedures file. Example: [http://www.hep.wisc.edu/~skkwan
 
 - Run FastMTT on 2018 data and MC files here:
 
-  '''/hdfs/store/user/shigginb/2019_June_15_2018_tt/''' [Done]
+  '''/hdfs/store/user/shigginb/2019_June_15_2018_tt/''' [Done, need to validate]
 
   '''/hdfs/store/user/shigginb/2019_June_15_2018_Data_tt/'''
 - 2016 data and MC are not ready yet, but as a heads up because the FastMTT submit script must be edited to reflect a different naming scheme:
@@ -33,3 +33,5 @@ See the corresponding Procedures file. Example: [http://www.hep.wisc.edu/~skkwan
 
 ### To-do
 - Trace through `https://github.com/samhiggie/PUAnalysis/blob/htt_2018_sam/StatTools/interface/DataCardCreatorHThTh_2016_QCD_FF.h` and understand how the histograms are filled.
+- Proceed with merging the 2016/2018 MC using `mergeonly_25ns_2016MC.sh`. 
+- 
